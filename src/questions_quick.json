@@ -1,0 +1,726 @@
+[
+  {
+    "id": 1,
+    "type": "behavioral_mcq",
+    "dimensions": [
+      "low_level_orientation",
+      "visual_perceptual_reasoning",
+      "abstraction_tolerance",
+      "mechanical_aerospace_affinity"
+    ],
+    "question": {
+      "ar": "اشتريت لعبة تركيب (مثل Lego معقدة أو جهاز إلكتروني) فيها مئات القطع ومطالب بتركيبها، أول حاجة بتعملها إيه؟",
+      "en": "You bought a complex DIY kit/Lego set with hundreds of parts. What is your immediate approach?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "برتب القطع حسب أشكالها وألوانها على الطاولة عشان شكل العملية يكون مريح ومنظم بعيني.",
+        "text_en": "Arrange parts by color/shape on the table for visual harmony and easy access.",
+        "signals": {
+          "visual_perceptual_reasoning": 3,
+          "tight_feedback_loop": 2
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Arrange parts by color/shape on the table for visual harmony and easy access.",
+          "ar": "برتب القطع حسب أشكالها وألوانها على الطاولة عشان شكل العملية يكون مريح ومنظم بعيني."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "بمسك كتالوج الخطوات وابدأ أركب جزء بجزء بالتوالي المنطقي المحسوب.",
+        "text_en": "Open the manual and strictly follow step-by-step logic sequentially.",
+        "signals": {
+          "systems_thinking": 2,
+          "deterministic_environment": 3
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Open the manual and strictly follow step-by-step logic sequentially.",
+          "ar": "بمسك كتالوج الخطوات وابدأ أركب جزء بجزء بالتوالي المنطقي المحسوب."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "بفرز القطع الصغيرة الجانبية والمفصلات وأفهم طريقة تعشيقهم في بعض الأول قبل البناء.",
+        "text_en": "Inspect small joints and internal mechanisms to understand how they interlock first.",
+        "signals": {
+          "low_level_orientation": 3,
+          "detail_debugging": 2,
+          "mechanical_aerospace_affinity": 2
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Inspect small joints and internal mechanisms to understand how they interlock first.",
+          "ar": "بفرز القطع الصغيرة الجانبية والمفصلات وأفهم طريقة تعشيقهم في بعض الأول قبل البناء."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "بلقي نظرة عامة على صورة المنتج النهائي وأفكر إزاي أركب الأجزاء الكبيرة مع بعضها بأقل مجهود.",
+        "text_en": "Look at the final product photo and plan how big structural blocks fit together.",
+        "signals": {
+          "abstraction_tolerance": 3,
+          "architectural_design": 2
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Look at the final product photo and plan how big structural blocks fit together.",
+          "ar": "بلقي نظرة عامة على صورة المنتج النهائي وأفكر إزاي أركب الأجزاء الكبيرة مع بعضها بأقل مجهود."
+        }
+      }
+    ],
+    "rationale": "يستنتج طريقة تعامل الطالب مع البناء دون ذكر كود، مفرقاً بين الترتيب البصري، التسلسل المنطقي، تفاصيل العتاد، والتفكير البنائي التجريدي."
+  },
+  {
+    "id": 2,
+    "type": "behavioral_mcq",
+    "dimensions": [
+      "detail_debugging",
+      "persistence_delayed_reward",
+      "ambiguity_tolerance"
+    ],
+    "question": {
+      "ar": "كود كتبته ومش عايز يشتغل، والبرنامج مابيديكش أي سطر خطأ (No Error Message)، تصرفك بيكون إيه؟",
+      "en": "Your code silently fails without throwing any error message. What do you do?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "بمسك الكود سطر سطر وأحط جمل طباعة عشان أراقب قيمة كل متغير خطوة بخطوة.",
+        "text_en": "Insert print statements line-by-line to observe state and variable changes.",
+        "signals": {
+          "detail_debugging": 3,
+          "deterministic_environment": 2
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Insert print statements line-by-line to observe state and variable changes.",
+          "ar": "بمسك الكود سطر سطر وأحط جمل طباعة عشان أراقب قيمة كل متغير خطوة بخطوة."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "بغير في أجزاء من الكود بشكل عشوائي أو أجرب حلول من النت لحد ما يظبط.",
+        "text_en": "Tweak code randomly or test snippets from online forums until it works.",
+        "signals": {
+          "experimental_orientation": 2,
+          "detail_debugging": -1
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Tweak code randomly or test snippets from online forums until it works.",
+          "ar": "بغير في أجزاء من الكود بشكل عشوائي أو أجرب حلول من النت لحد ما يظبط."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "بقفل اللاب توب وأمشي، ولما أرجع بعيد التفكير في الفكرة المعمارية للحل من الأساس.",
+        "text_en": "Step away, take a break, and re-evaluate the core algorithm's logic.",
+        "signals": {
+          "abstraction_tolerance": 3,
+          "systems_thinking": 2
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Step away, take a break, and re-evaluate the core algorithm's logic.",
+          "ar": "بقفل اللاب توب وأمشي، ولما أرجع بعيد التفكير في الفكرة المعمارية للحل من الأساس."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "بشوف أجزاء النظام اللي الكود ده بيتكلم معاها (الذاكرة، الملفات، الأجهزة) وهل الاتصال بينهم مظبوط ولا لأ.",
+        "text_en": "Inspect system boundaries (memory, network, file OS calls) to check for broken pipelines.",
+        "signals": {
+          "systems_thinking": 3,
+          "low_level_orientation": 2
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Inspect system boundaries (memory, network, file OS calls) to check for broken pipelines.",
+          "ar": "بشوف أجزاء النظام اللي الكود ده بيتكلم معاها (الذاكرة، الملفات، الأجهزة) وهل الاتصال بينهم مظبوط ولا لأ."
+        }
+      }
+    ],
+    "rationale": "يقيس مدى القدرة على الصبر والـ Debugging المنهجي مقابل الحلول العشوائية أو التجريدية."
+  },
+  {
+    "id": 3,
+    "type": "scenario_mcq",
+    "dimensions": [
+      "data_reasoning",
+      "pattern_discovery",
+      "climate_environmental_affinity",
+      "physical_world_affinity",
+      "mechanical_aerospace_affinity",
+      "creative_arts_coding",
+      "fintech_quant_affinity",
+      "probabilistic_environment"
+    ],
+    "question": {
+      "ar": "لو جالك 4 أفكار مشاريع تقنية تختار واحدة تشتغل عليها لمدة شهر كامل، أنهي فكرة تحمسك أكتر؟",
+      "en": "Given four technical project ideas for a month-long build, which excites you more?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "تطبيق بيجمع بيانات من حساسات في الشارع عشان يراقب ويتوقع مستويات تلوث الهواء في مناطق مدينتك.",
+        "text_en": "An app collecting street sensor data to monitor and predict air pollution levels across your city.",
+        "signals": {
+          "data_reasoning": 3,
+          "pattern_discovery": 3,
+          "probabilistic_environment": 2,
+          "climate_environmental_affinity": 3
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "An app collecting street sensor data to monitor and predict air pollution levels across your city.",
+          "ar": "تطبيق بيجمع بيانات من حساسات في الشارع عشان يراقب ويتوقع مستويات تلوث الهواء في مناطق مدينتك."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "عربية صغيرة بريموت تتحرك وتتفادى العوائق وتفرمل لوحدها باستخدام حساسات مادية.",
+        "text_en": "A small motorized RC car that navigates around obstacles using physical proximity sensors.",
+        "signals": {
+          "physical_world_affinity": 3,
+          "physical_control": 3,
+          "tight_feedback_loop": 2,
+          "mechanical_aerospace_affinity": 2
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "A small motorized RC car that navigates around obstacles using physical proximity sensors.",
+          "ar": "عربية صغيرة بريموت تتحرك وتتفادى العوائق وتفرمل لوحدها باستخدام حساسات مادية."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "برنامج بيحول الصورة المرسومة بالإيد على ورقة لكود ينفع يشتغل ويب على طول.",
+        "text_en": "A program converting hand-drawn sketches on paper directly into executable web pages.",
+        "signals": {
+          "visual_human_experience": 2,
+          "automation": 3,
+          "architectural_design": 1,
+          "creative_arts_coding": 2
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "A program converting hand-drawn sketches on paper directly into executable web pages.",
+          "ar": "برنامج بيحول الصورة المرسومة بالإيد على ورقة لكود ينفع يشتغل ويب على طول."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "محرك بيحلل بيانات تداول تاريخية لعملة رقمية أو سهم ويحاول يتوقع اتجاه السعر الجاي.",
+        "text_en": "An engine analyzing historical trading data for a stock/crypto asset to predict its next price direction.",
+        "signals": {
+          "mathematical_rigor": 2,
+          "probabilistic_environment": 3,
+          "data_reasoning": 2,
+          "fintech_quant_affinity": 3
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "An engine analyzing historical trading data for a stock/crypto asset to predict its next price direction.",
+          "ar": "محرك بيحلل بيانات تداول تاريخية لعملة رقمية أو سهم ويحاول يتوقع اتجاه السعر الجاي."
+        }
+      }
+    ],
+    "rationale": "يحدد ميول العالم المادي/البيئي مقابل التمويل الكمي أو الفن التوليدي، عبر أربع مسارات مختلفة تماماً."
+  },
+  {
+    "id": 4,
+    "type": "scenario_mcq",
+    "dimensions": [
+      "adversarial_security_reasoning",
+      "systems_thinking",
+      "sports_science_affinity"
+    ],
+    "question": {
+      "ar": "صاحبك عمل موقع بسيط لتنظيم دورة كورة في الكلية، وطلب منك تجرب الموقع، أول فكرة بتيجي في دماغك إيه؟",
+      "en": "A friend created a tournament management app for your college. What's your first instinct when testing it?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "بتأكد إن الألوان مريحة وأن الجدول معروض بشكل سهل على الموبايل.",
+        "text_en": "Check if colors are pleasant and the schedule table looks great on mobile screens.",
+        "signals": {
+          "visual_perceptual_reasoning": 3,
+          "visual_human_experience": 2
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Check if colors are pleasant and the schedule table looks great on mobile screens.",
+          "ar": "بتأكد إن الألوان مريحة وأن الجدول معروض بشكل سهل على الموبايل."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "بتفرج إزاي النتائج بتحسب النقط وتحدث الترتيب تلقائياً في الجدول.",
+        "text_en": "Test how scores dynamically recalculate and update league standings.",
+        "signals": {
+          "data_reasoning": 2,
+          "architectural_design": 1,
+          "sports_science_affinity": 2
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Test how scores dynamically recalculate and update league standings.",
+          "ar": "بتفرج إزاي النتائج بتحسب النقط وتحدث الترتيب تلقائياً في الجدول."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "بجرب أدخل قيم غريبة (زي أرقام بالسالب، أو اسم فريق طوله 1000 حرف) عشان أشوف السيستم هيتصرّف إزاي.",
+        "text_en": "Input bizarre values (negative scores, 1000-character names) to see if it breaks.",
+        "signals": {
+          "adversarial_security_reasoning": 3,
+          "security_investigation": 3
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Input bizarre values (negative scores, 1000-character names) to see if it breaks.",
+          "ar": "بجرب أدخل قيم غريبة (زي أرقام بالسالب، أو اسم فريق طوله 1000 حرف) عشان أشوف السيستم هيتصرّف إزاي."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "بسأله إزاي رابط السيرفر بالقاعدة وبيانات المباشر بتوصل للمستخدمين في نفس اللحظة.",
+        "text_en": "Ask how the server synchronizes live matches across concurrent users.",
+        "signals": {
+          "systems_thinking": 3,
+          "infrastructure_reliability": 2
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Ask how the server synchronizes live matches across concurrent users.",
+          "ar": "بسأله إزاي رابط السيرفر بالقاعدة وبيانات المباشر بتوصل للمستخدمين في نفس اللحظة."
+        }
+      }
+    ],
+    "rationale": "يستكشف حس الأمن الرقمي (Adversarial Thinking) وميل تحليلات الرياضة، بعيداً عن الادعاء المباشر بمحبة الهكر."
+  },
+  {
+    "id": 5,
+    "type": "scenario_mcq",
+    "dimensions": [
+      "visual_perceptual_reasoning",
+      "mathematical_rigor",
+      "data_reasoning",
+      "pattern_discovery",
+      "systems_thinking",
+      "automation",
+      "healthtech_affinity",
+      "bioinformatics_affinity"
+    ],
+    "question": {
+      "ar": "في مسابقة تحليل بيانات، قدامك ألف صورة أشعة (X-ray) والمطلوب تصنيفها سليمة/غير سليمة، بتفكر تعمل إيه؟",
+      "en": "In a data-analysis competition, you're given 1,000 X-ray images to classify as healthy/abnormal. How would you approach it?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "بفتش عن فروق واضحة بالعين المجردة بين الصور وبقسمهم مجموعات بصرياً.",
+        "text_en": "Group them visually based on obvious differences you can see with the naked eye.",
+        "signals": {
+          "visual_perceptual_reasoning": 3,
+          "experimental_orientation": 1
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Group them visually based on obvious differences you can see with the naked eye.",
+          "ar": "بفتش عن فروق واضحة بالعين المجردة بين الصور وبقسمهم مجموعات بصرياً."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "بقيس أبعاد ونسب معينة في الصورة وبحلل الأرقام دي رياضياً عشان أطلع بقاعدة فصل دقيقة.",
+        "text_en": "Measure specific ratios/dimensions in the image and analyze them mathematically to derive a precise separation rule.",
+        "signals": {
+          "mathematical_rigor": 3,
+          "data_reasoning": 3,
+          "pattern_discovery": 2,
+          "healthtech_affinity": 2
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Measure specific ratios/dimensions in the image and analyze them mathematically to derive a precise separation rule.",
+          "ar": "بقيس أبعاد ونسب معينة في الصورة وبحلل الأرقام دي رياضياً عشان أطلع بقاعدة فصل دقيقة."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "بقرا عن الحالة الطبية والمرض نفسه وأفهم الأعراض البيولوجية عشان أبني شجرة تصنيف منطقية.",
+        "text_en": "Research the medical condition and its biological symptoms to build a logical diagnostic decision tree.",
+        "signals": {
+          "systems_thinking": 2,
+          "abstraction_tolerance": 2,
+          "healthtech_affinity": 3,
+          "bioinformatics_affinity": 2
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Research the medical condition and its biological symptoms to build a logical diagnostic decision tree.",
+          "ar": "بقرا عن الحالة الطبية والمرض نفسه وأفهم الأعراض البيولوجية عشان أبني شجرة تصنيف منطقية."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "بعمل سكريبت صغير يفحص شدة البكسلات والحواف في الصورة ويجمعها في مجموعات تلقائياً.",
+        "text_en": "Write a small script that scans pixel intensity/edges in the image and clusters them automatically.",
+        "signals": {
+          "pattern_discovery": 3,
+          "automation": 3,
+          "systems_thinking": 1,
+          "healthtech_affinity": 1
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Write a small script that scans pixel intensity/edges in the image and clusters them automatically.",
+          "ar": "بعمل سكريبت صغير يفحص شدة البكسلات والحواف في الصورة ويجمعها في مجموعات تلقائياً."
+        }
+      }
+    ],
+    "rationale": "التمييز بين معالجة الصور البصرية، التحليل الرقمي الرياضي، أتمتة الخوارزميات، والفهم الحيوي/الطبي للمشكلة."
+  },
+  {
+    "id": 6,
+    "type": "scenario_mcq",
+    "dimensions": [
+      "physical_control",
+      "space_astronomy_affinity",
+      "probabilistic_environment",
+      "adversarial_security_reasoning"
+    ],
+    "question": {
+      "ar": "شفت فيديو لروبوت استكشاف على سطح كوكب تاني (زي المريخ) بيتعلق في الرمال وبيحاول يحرر نفسه، إيه اللي يشغل دماغك؟",
+      "en": "You watch a video of a planetary rover (e.g., on Mars) stuck in sand, trying to free itself. What captures your thinking?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "حركة العجلات والمحركات وكيفية ضبط الاتزان الفيزيائي فوراً مع الرمال.",
+        "text_en": "Wheel/actuator torque and real-time physical balance against the sand.",
+        "signals": {
+          "physical_world_affinity": 3,
+          "physical_control": 3,
+          "low_level_orientation": 2,
+          "space_astronomy_affinity": 1
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Wheel/actuator torque and real-time physical balance against the sand.",
+          "ar": "حركة العجلات والمحركات وكيفية ضبط الاتزان الفيزيائي فوراً مع الرمال."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "الكاميرات والحساسات اللي خلت الروبوت يشوف التضاريس ويعرف إن الأرض رملية.",
+        "text_en": "Optical sensors and cameras detecting the terrain and sand boundaries visually.",
+        "signals": {
+          "visual_perceptual_reasoning": 2,
+          "pattern_discovery": 2,
+          "space_astronomy_affinity": 1
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Optical sensors and cameras detecting the terrain and sand boundaries visually.",
+          "ar": "الكاميرات والحساسات اللي خلت الروبوت يشوف التضاريس ويعرف إن الأرض رملية."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "الاحتمالات والبيانات اللي الروبوت جمعها من موقف مشابه قبل كده عشان يقرر خطوته الجاية بنفسه (لأنه بعيد عن الأرض ومحدش بيتحكم فيه لحظياً).",
+        "text_en": "Historical data and probabilities the rover uses to autonomously decide its next move, since it's too far for real-time control from Earth.",
+        "signals": {
+          "probabilistic_environment": 3,
+          "data_reasoning": 3,
+          "pattern_discovery": 2,
+          "space_astronomy_affinity": 2
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Historical data and probabilities the rover uses to autonomously decide its next move, since it's too far for real-time control from Earth.",
+          "ar": "الاحتمالات والبيانات اللي الروبوت جمعها من موقف مشابه قبل كده عشان يقرر خطوته الجاية بنفسه (لأنه بعيد عن الأرض ومحدش بيتحكم فيه لحظياً)."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "أمان الروبوت وهل ممكن الإشارات اللي بتتبعتله من الأرض تتشوش أو يتم اختراقها.",
+        "text_en": "Signal security; could the commands sent from Earth be corrupted or hijacked?",
+        "signals": {
+          "adversarial_security_reasoning": 3,
+          "security_investigation": 2,
+          "space_astronomy_affinity": 1
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Signal security; could the commands sent from Earth be corrupted or hijacked?",
+          "ar": "أمان الروبوت وهل ممكن الإشارات اللي بتتبعتله من الأرض تتشوش أو يتم اختراقها."
+        }
+      }
+    ],
+    "rationale": "تمييز التحكم المادي المباشر عن الرؤية الحاسوبية والذكاء الاحتمالي والأمن، في سياق مهام الفضاء."
+  },
+  {
+    "id": 7,
+    "type": "behavioral_mcq",
+    "dimensions": [
+      "infrastructure_reliability",
+      "systems_thinking",
+      "fintech_quant_affinity",
+      "creative_arts_coding",
+      "healthtech_affinity",
+      "bioinformatics_affinity",
+      "mechanical_aerospace_affinity"
+    ],
+    "question": {
+      "ar": "إيه نوع المنظومات اللي بتحس بفخر لو شاركت في بنائها وتأمينها؟",
+      "en": "What type of underlying platform would you feel proudest to help build and maintain?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "شبكة البنوك ومعالجة ملايين المعاملات المالية في الثانية دون خطأ واحد في قرش.",
+        "text_en": "Banking networks processing millions of financial transactions/sec with zero error rate.",
+        "signals": {
+          "infrastructure_reliability": 3,
+          "deterministic_environment": 3,
+          "systems_thinking": 2,
+          "fintech_quant_affinity": 3
+        },
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Banking networks processing millions of financial transactions/sec with zero error rate.",
+          "ar": "شبكة البنوك ومعالجة ملايين المعاملات المالية في الثانية دون خطأ واحد في قرش."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "أبلكيشن سينمائي بتصميم خرافي ممتع يخدم عشرات الملايين من المستخدمين.",
+        "text_en": "Highly stylized streaming/entertainment platform loved visually by millions.",
+        "signals": {
+          "visual_human_experience": 3,
+          "visual_perceptual_reasoning": 2,
+          "creative_arts_coding": 2
+        },
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Highly stylized streaming/entertainment platform loved visually by millions.",
+          "ar": "أبلكيشن سينمائي بتصميم خرافي ممتع يخدم عشرات الملايين من المستخدمين."
+        }
+      },
+      {
+        "key": "C",
+        "text_ar": "خوارزمية ذكاء تشخص الأمراض المستعصية من الأشعة أو الجينات بدقة أعلى من الأطباء.",
+        "text_en": "Diagnostic AI algorithm identifying diseases from scans or genetic data with higher precision than doctors.",
+        "signals": {
+          "data_reasoning": 3,
+          "scientific_simulation": 3,
+          "probabilistic_environment": 2,
+          "healthtech_affinity": 3,
+          "bioinformatics_affinity": 1
+        },
+        "id": "C",
+        "archetype": "C",
+        "text": {
+          "en": "Diagnostic AI algorithm identifying diseases from scans or genetic data with higher precision than doctors.",
+          "ar": "خوارزمية ذكاء تشخص الأمراض المستعصية من الأشعة أو الجينات بدقة أعلى من الأطباء."
+        }
+      },
+      {
+        "key": "D",
+        "text_ar": "نظام تشغيل طائرة ركاب يضمن عدم سقوطها حتى لو تعطلت نصف المحركات.",
+        "text_en": "Flight control software ensuring aircraft safety even during multi-engine failures.",
+        "signals": {
+          "systems_thinking": 3,
+          "physical_control": 2,
+          "infrastructure_reliability": 3,
+          "mechanical_aerospace_affinity": 3
+        },
+        "id": "D",
+        "archetype": "D",
+        "text": {
+          "en": "Flight control software ensuring aircraft safety even during multi-engine failures.",
+          "ar": "نظام تشغيل طائرة ركاب يضمن عدم سقوطها حتى لو تعطلت نصف المحركات."
+        }
+      }
+    ],
+    "rationale": "كشف التطلع نحو الاعتمادية العالية للأنظمة عبر مسارات التمويل، الفن الرقمي، الصحة، والطيران."
+  },
+  {
+    "id": 8,
+    "type": "forced_ranking",
+    "dimensions": [
+      "optimization",
+      "visual_human_experience",
+      "security_investigation",
+      "pattern_discovery"
+    ],
+    "question": {
+      "ar": "قدامك 4 صفات لمشروع برمجي، لكن معاك موارد مادية ووقت يكفي لتنفيذ صفة واحدة فقط بامتياز، رتب الصفات من الأهم بالنسبة لك (1) للـ أقل أهمية (4):",
+      "en": "You have resources to excel at only ONE system attribute. Rank from most preferred (1) to least (4):"
+    },
+    "options": [
+      {
+        "key": "Option A",
+        "text_ar": "سرعة استجابة مذهلة وتنفيذ في أجزاء من الميكروثانية (Ultra-high Speed & Performance).",
+        "text_en": "Ultra-high Speed & Performance.",
+        "id": "Option A",
+        "archetype": "Option A",
+        "text": {
+          "en": "Ultra-high Speed & Performance.",
+          "ar": "سرعة استجابة مذهلة وتنفيذ في أجزاء من الميكروثانية (Ultra-high Speed & Performance)."
+        }
+      },
+      {
+        "key": "Option B",
+        "text_ar": "واجهة جذابة وسهلة جداً أي طفل يقدر يشتغل عليها من أول لحظة (Intuitive Visual UX).",
+        "text_en": "Intuitive Visual UX.",
+        "id": "Option B",
+        "archetype": "Option B",
+        "text": {
+          "en": "Intuitive Visual UX.",
+          "ar": "واجهة جذابة وسهلة جداً أي طفل يقدر يشتغل عليها من أول لحظة (Intuitive Visual UX)."
+        }
+      },
+      {
+        "key": "Option C",
+        "text_ar": "أمان مطلق وعالي الجودة مستحيل اختراقه أو تسريب بياناته (Zero-Trust Security & Reliability).",
+        "text_en": "Zero-Trust Security & Reliability.",
+        "id": "Option C",
+        "archetype": "Option C",
+        "text": {
+          "en": "Zero-Trust Security & Reliability.",
+          "ar": "أمان مطلق وعالي الجودة مستحيل اختراقه أو تسريب بياناته (Zero-Trust Security & Reliability)."
+        }
+      },
+      {
+        "key": "Option D",
+        "text_ar": "قدرة على التعلم والتوقع الذاتي من البيانات بدون تدخل بشري (Self-Learning Data Intelligence).",
+        "text_en": "Self-Learning Data Intelligence.",
+        "id": "Option D",
+        "archetype": "Option D",
+        "text": {
+          "en": "Self-Learning Data Intelligence.",
+          "ar": "قدرة على التعلم والتوقع الذاتي من البيانات بدون تدخل بشري (Self-Learning Data Intelligence)."
+        }
+      }
+    ],
+    "signals_map": {
+      "Rank1_A": {
+        "optimization": 3,
+        "low_level_orientation": 2
+      },
+      "Rank1_B": {
+        "visual_human_experience": 3,
+        "visual_perceptual_reasoning": 2
+      },
+      "Rank1_C": {
+        "security_investigation": 3,
+        "adversarial_security_reasoning": 2,
+        "infrastructure_reliability": 2
+      },
+      "Rank1_D": {
+        "pattern_discovery": 3,
+        "data_reasoning": 3,
+        "probabilistic_environment": 2
+      }
+    },
+    "rationale": "إجبار الطالب على تحديد الأولويات الجوهرية عندما تتعارض الموارد، بشكل ينطبق على أي مجال."
+  },
+  {
+    "id": 9,
+    "type": "forced_choice",
+    "dimensions": [
+      "physical_world_affinity",
+      "tight_feedback_loop"
+    ],
+    "question": {
+      "ar": "لو أجبرت تختار واحدة من البيئتين دول للشغل لمدة سنة، تختار أنهي؟",
+      "en": "If forced to work in one of these two environments for a full year, which would you pick?"
+    },
+    "options": [
+      {
+        "key": "A",
+        "text_ar": "بيئة بتشتغل فيها على عتاد وأجهزة مادية (Hardware)، الشغل ممتع جداً بس التعديل بياخد وقت والتجارب فيها فك وتوصيل أسلاك وتأخير.",
+        "text_en": "Work with hardware devices: deeply rewarding, but physical iterations, wiring, and hardware debugging take long setup times.",
+        "id": "A",
+        "archetype": "A",
+        "text": {
+          "en": "Work with hardware devices: deeply rewarding, but physical iterations, wiring, and hardware debugging take long setup times.",
+          "ar": "بيئة بتشتغل فيها على عتاد وأجهزة مادية (Hardware)، الشغل ممتع جداً بس التعديل بياخد وقت والتجارب فيها فك وتوصيل أسلاك وتأخير."
+        }
+      },
+      {
+        "key": "B",
+        "text_ar": "بيئة بتشتغل فيها على السيرفرات والسحابية (Cloud/Software)، بتكتب كود وتشوف النتيجة فوراً على الشاشة، بس معندكش أي حاجة مادية تلمسها بإيدك.",
+        "text_en": "Work purely with cloud software/servers: instant code execution, but zero physical tangible components to touch.",
+        "id": "B",
+        "archetype": "B",
+        "text": {
+          "en": "Work purely with cloud software/servers: instant code execution, but zero physical tangible components to touch.",
+          "ar": "بيئة بتشتغل فيها على السيرفرات والسحابية (Cloud/Software)، بتكتب كود وتشوف النتيجة فوراً على الشاشة، بس معندكش أي حاجة مادية تلمسها بإيدك."
+        }
+      }
+    ],
+    "signals_map": {
+      "A": {
+        "physical_world_affinity": 4,
+        "low_level_orientation": 3,
+        "latent_feedback_loop": 2
+      },
+      "B": {
+        "physical_world_affinity": -3,
+        "tight_feedback_loop": 3,
+        "architectural_design": 2
+      }
+    },
+    "rationale": "قياس حد الفصل (Boundary Threshold) للانجذاب إلى المكونات المادية مقابل البرمجيات النظيفة."
+  },
+  {
+    "id": 10,
+    "type": "open_ended",
+    "dimensions": [
+      "unconstrained_project_preference",
+      "intrinsic_motivation",
+      "frustration_trigger",
+      "anti_profile_mapping"
+    ],
+    "question": {
+      "ar": "لو ادينالك تمويل كامل و3 شهور إجازة بدون أي ضغوط، وطلبنا منك تبني مشروع تقني من اختيارك الشخصي تماماً (في أي مجال حتى لو مش برمجة بحتة)، هيكون إيه وليه اخترته؟",
+      "en": "If granted full funding and 3 months of free time to build ANY technical project of your choice (in any field, even non-programming), what would it be and why?"
+    },
+    "rationale": "يجمع أقوى إشارتين للكشف عن الميول الحقيقية والاستبعادات عبر كل المجالات في سؤال واحد مضغوط، عشان يعوّض قصر النسخة عن أي مجال متغطاش بشكل مباشر في باقي الأسئلة.",
+    "options": []
+  }
+]
